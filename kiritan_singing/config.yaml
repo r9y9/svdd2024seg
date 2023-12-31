@@ -1,0 +1,6 @@
+# The name of singer
+spk: "kiritan"
+sample_rate: 48000
+
+# **CHANGE** this to your database path
+wav_root:
