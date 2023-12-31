@@ -1,0 +1,6 @@
+[submodule "3rdparty/fastdtw"]
+	path = 3rdparty/fastdtw
+	url = https://github.com/r9y9/fastdtw.git
+[submodule "3rdparty/nnsvs"]
+	path = 3rdparty/nnsvs
+	url = https://github.com/nnsvs/nnsvs.git
