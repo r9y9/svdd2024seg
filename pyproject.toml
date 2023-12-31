@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "svdd2024seg"
+version = "0.1.0"
+description = ""
+authors = ["Ryuichi Yamamoto <zryuichi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+webrtcvad = "^2.0.10"
+librosa = "^0.10.1"
+tqdm = "^4.66.1"
+soundfile = "^0.12.1"
+numpy = "<1.26"
+pyyaml = "^6.0.1"
+pysinsy = "^0.0.5"
+jaconv = "^0.3.4"
+nnmnkwii = "^0.1.2"
+cython = "^3.0.7"
+fastdtw = {path = "3rdparty/fastdtw"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
