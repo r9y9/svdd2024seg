@@ -24,7 +24,7 @@ cd ofuton_p_utagoe_db
 poetry run ./run.sh --stage 0 --stop_stage 0
 cd -
 
-cd oniku_kurumi_utagoe_db
+cd oniku_kurumi_utagoe_db --stage 0 --stop_stage 0
 poetry run ./run.sh
 cd -
 
